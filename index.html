@@ -3,56 +3,92 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Web Dev 101</title>
+    <title>Madelyn Torff</title>
     <link rel="stylesheet" href="/assets/styles/style.css">
 </head>
 <body>
 
-    <a href="https://www.google.com/" target="blank">Go to Google</a>
-    <p>Welcome to <strong>Web Dev <em>101</em></strong></p>
-    <h1>This is <span>Heading</span> 1</h1>
-    <h2>Heading 2 Lorem Ipsum</h2>
-    <h3>Heading 3</h3>
-    <h4 class="red bg-yellow f-30">Heading 4</h4>
-    <h5>Heading 5</h5>
-    <h6 id="my-h6" class="my-class">Heading 6</h6>
-    <div>This is a container</div>
-    <p class="my-class">This is just <br>a paragraph</p>
-    <hr>
-    <ol>
-        <li>Step 1</li>
-        <li>Step 2</li>
-        <li>Step 3</li>
-    </ol>
-    <ul>
-        <li>Pizza</li>
-        <li>Burger</li>
-        <li>Fries</li>
-    </ul>
-    <img src="/assets/images/tree.jpg" alt="Tree">
-    <table>
-        <tr>
-            <th>No</th>
-            <th>Name</th>
-            <th>Country</th>
-            <th>Desc</th>
-        </tr>
-        <tr>
-            <td>1</td>
-            <td>Juan</td>
-            <td>PH</td>
-        </tr>
-        <tr>
-            <td>2</td>
-            <td>John</td>
-            <td>US</td>
-        </tr>
-        <tr>
-            <td>3</td>
-            <td>Feng</td>
-            <td>China</td>
-        </tr>
-    </table>
+    <!-- Header -->
+    <header class="header">
+        <div>Madelyn Torff</div>
+        <nav>
+            <a href="about">About</a>
+            <a href="projects">Projects</a>
+            <a href="contacts">Contacts</a>
+        </nav>
+    </header>
+
+    <!-- Introduction -->
+    <section class="hero">
+        <div class="intro-content">
+            <div class="intro-text">
+                <h5 class="ht1">UI/UX DESIGNER</h5>
+                <h1 class="ht2">Hello, my name <br>is Madelyn Torff</h1>
+                <p class="ht3">Short text with details about you, what you <br>do or your professional career. You can add <br> more information on the about page.</p>
+                <div class="buttons">
+                    <button class="btn-projects">Projects</button>
+                    <button class="btn-linkedin">LinkedIn</button>
+                </div>
+            </div>
+            <div class="intro-image">
+                <img src="/assets/images/Madelyn-Torff.png" alt="Madelyn Torff">
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="projects">
+        <h2>Projects</h2>
+        <div class="project-container">
+          <div class="project-card">
+            <div class="project-details">
+              <h3>Project Name</h3>
+              <p>I created this personal project in order to show how to create an interface in Figma using a portfolio as an example.</p>
+              <button>View Project</button>
+            </div>
+            <img src="/assets/images/yoga.png" alt="yoga">
+          </div>
+
+          <div class="project-card">
+            <img src="/assets/images/pen.png" alt="pen">
+            <div class="project-details">
+              <h3>Project Name</h3>
+              <p>What was your role, your deliverables, if the project was personal, freelancing.</p>
+              <button>View Project</button>
+            </div>
+          </div>
+          <div class="project-card">
+            
+            <div class="project-details">
+              <h3>Project Name</h3>
+              <p>You can also add in this description the type of the project, if it was for web, mobile, electronic.</p>
+              <button>View Project</button>
+            </div>
+            <img src="/assets/images/phone.png" alt="phone">
+          </div>
+        </div>
+      </section>
+      
+    <!--Contacts -->
+      <section class="contact">
+        <h2>Projects</h2>
+        <form class="contact-form">
+            <label for="name">Name</label>
+            <input type="text">
+            <label for="email">Email</label>
+            <input type="email">
+            <label for="message">Message</label>
+            <textarea></textarea>
+            <button type="submit" class="send-btn">Send</button>
+
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fas fa-envelope"></i></a>
+            </div>
+            <p>Madelyn Torff 2021</p>
+        </form>
+    </section>
 
 </body>
 </html>

@@ -11,6 +11,18 @@ body {
     padding: 0;
 }
 
+.intro-image {
+    
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    width: 10;
+    height: auto;
+    object-fit: cover;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -100,6 +112,7 @@ body {
     padding: 50px;
     text-align: center;
     font-family: "Playfair Display", serif;
+    margin-top: 300px;
 }
   
 .projects h2 {

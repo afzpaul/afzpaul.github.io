@@ -11,8 +11,8 @@ body {
     padding: 0;
 }
 
+/*intro image*/
 .intro-image {
-    
     overflow: hidden;
     position: absolute;
     top: 0;
@@ -23,6 +23,7 @@ body {
     object-fit: cover;
 }
 
+/*header*/
 .header {
     display: flex;
     justify-content: space-between;
@@ -63,7 +64,9 @@ body {
 
 .intro-text .ht1 {
     color: #FDC435;
+    font-family: "Nunito", serif;
     font-weight: bold;
+    font-size: 20px;
 }
 
 .intro-text .ht2 {
@@ -76,6 +79,7 @@ body {
     margin: 10px 0;
     font-family: "Nunito", serif;
     font-style: normal;
+    font-size: 15px;
 }
 
 .hero .buttons {
@@ -118,8 +122,7 @@ body {
 .projects h2 {
         font-size: 2.5rem;
         text-align: center;
-        margin-bottom: 30px;
-        color: #333333;
+        margin-bottom: 80px;
         position: relative;
 }
 
@@ -139,6 +142,7 @@ body {
     gap: 80px;
     max-width: 1000px;
     margin: 0 auto;
+    align-items: flex-start;
 }
 
 .project-card {
@@ -162,7 +166,7 @@ body {
 }
   
 .project-details h3 {
-    font-size: 24px;
+    font-size: 40px;
     margin-left: 20px;
     text-align: left;
     font-family: "Playfair Display", serif;
@@ -176,19 +180,18 @@ body {
 }
   
 .projects .project-details button {
-    align-self: flex-start;
     color: black;
     border: 2px solid black;
-    padding: 8px 15px;
     border-radius: 20px;
     cursor: pointer;
-    transition: background-color 0.3s;
+    margin-top: 10px;
+    padding: 12px 24px;
     font-family: "Roboto", serif;
-  }
+}
   
-  button:hover {
+button:hover {
     background-color: #FDC435;
-  }
+}
   
 
 /*contacts*/
@@ -203,6 +206,7 @@ body {
     margin-bottom: 30px;
     color: #333333;
     position: relative;
+    font-family: "Playfair Display", serif;
 }
 
 .contact h2::after {
@@ -214,11 +218,17 @@ body {
     margin: 10px auto 0;
     
 }
+
+
 .contact-form {
     max-width: 400px;
     margin: auto;
     display: grid;
     gap: 15px;
+}
+
+.contact .contact-form label{
+    font-family: "Nunito", serif;
 }
 
 .contact-form label {
@@ -252,11 +262,6 @@ body {
 }
 
 .contact-form .send-btn {
-    display: flex;
-    justify-content: flex-end;
-}
-
-.send-btn {
     padding: 15px 30px;
     background-color: #FDC435;
     border: none;
@@ -264,7 +269,10 @@ body {
     font-weight: bold;
     cursor: pointer;
     transition: background-color 0.3s;
+    width: 90px;
+    margin-left: auto;
 }
+
 
 .contact form button:hover {
     background-color: #ffd700;
@@ -272,7 +280,6 @@ body {
 
 
 /*socials*/
-
 .socials {
     margin-top: 20px;
 }
@@ -288,4 +295,5 @@ p {
     margin-top: 25px;
     font-size: 15px;
     color: #aaa;
+    font-family: "Nunito", serif;
 }
